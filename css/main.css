@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0 15px;
+    background-image: url(BAMBOO_WHT.jpg);
+    background-size: cover;
+}
+
+
+.form {
+    position: relative;
+}
+
+
+#site-search {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 50px auto;
+    font-size: 15px;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: solid lightslategray 5px;
+}
+
+::placeholder,
+input {
+    color: lightslategray;
+}
+
+.gallery {
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.card-left, .card-right {
+    float: left;
+    width: 47%;
+    margin: 10px 0;
+}
+
+.card-left {
+    margin-right: 6%;
+}
+
+.card-left img, .card-right img {
+    width: 100%;
+}
